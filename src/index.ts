@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 import { hydrate } from "@grammyjs/hydrate";
 import { MyContext } from "./types.js";
 import { User } from "./models/User.js";
-import { start, profile, backToMenu, productsCommand, payments, telegramSuccessPaymentsHandler } from "./comands/index.js";
+import { start, profile, backToMenu, productsCommand, payments, telegramSuccessPaymentsHandler } from "./commands/index.js";
 import { products } from "./constants/products.js"
 
 const BOT_API_KEY = process.env.BOT_TOKEN;
